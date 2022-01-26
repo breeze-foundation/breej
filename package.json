@@ -1,0 +1,33 @@
+{
+  "name": "breej",
+  "version": "1.2.0",
+  "description": "javascript api for the breeze blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -e index.js -p tinyify -o bin/breej.min.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "eslint": "^5.16.0",
+    "tinyify": "^2.5.1"
+  },
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "crypto-js": "^3.1.9-1",
+    "eccrypto": "^1.1.1",
+    "growint": "^1.0.1",
+    "node-fetch": "^2.6.0",
+    "randombytes": "^2.1.0",
+    "secp256k1": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breeze-foundation/breej.git"
+  },
+  "bugs": {
+    "url": "https://github.com/breeze-foundation/breej/issues"
+  },
+  "homepage": "https://github.com/breeze-foundation/breej#readme"
+}
